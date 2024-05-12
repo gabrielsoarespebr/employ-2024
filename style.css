@@ -64,11 +64,12 @@ header {
   }
 
   & > p:first-of-type {
-    font-size: 2rem;
+    font-size: 200%;
     font-weight: 400;
   }
 
   & > p:last-of-type {
+    font-size: 130%;
     font-weight: 500;
   }
 }
@@ -129,7 +130,9 @@ header {
 
   & > button {
     margin: 2vh 0;
+    padding: 1.5vh 3vw;
 
+    font-size: 160%;
     font-weight: 600;
   }
 
