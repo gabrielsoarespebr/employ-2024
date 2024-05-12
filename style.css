@@ -153,10 +153,9 @@ header {
     color: #1e64f0;
   }
 
-  & button{
+  & button {
     background-color: #1e64f0;
-  border: 1px solid #1143a6;
-
+    border: 1px solid #1143a6;
   }
 }
 
@@ -165,21 +164,46 @@ header {
     color: orangered;
   }
 
-  & button{
+  & button {
     background-color: orangered;
-  border: 1px solid rgb(187, 50, 0);
-
+    border: 1px solid rgb(187, 50, 0);
   }
 }
 
 #planPremium {
+  border: 2px solid #671c61;
+
+  position: relative;
+
   & > p:first-of-type {
-    color: #671C61;
+    color: #671c61;
   }
 
-  & button{
-    background-color: #671C61;
-  border: 1px solid rgb(187, 50, 0);
+  & button {
+    background: linear-gradient(40deg, #671c61, #b525a9);
+    border: 1px solid #51124b;
+  }
+}
 
+#markBestPlan {
+  position: absolute;
+  padding: 2vh 1vw;
+  top: 33vh;
+  right: 1vw;
+
+  background: linear-gradient(40deg, #671c61, #b525a9);
+  color: white;
+
+  border-radius: 50%;
+
+  font-size: 70%;
+  font-weight: bold;
+
+  z-index: 10;
+
+  transform: rotate(10deg);
+
+  & > p {
+    margin: 0;
   }
 }
