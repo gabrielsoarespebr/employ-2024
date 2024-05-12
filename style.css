@@ -1,0 +1,43 @@
+/* RESET CSS */
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CUSTOM CSS */
+body {
+  color: #37373c;
+  font-weight: 600;
+}
+
+header {
+  padding: 0.2vh 12vw;
+
+  & > div {
+    width: 100%;
+  }
+}
+
+#loginBtn,
+#registerBtn {
+  border-radius: 0.2rem;
+
+  padding: 0.3vh 1.5vw 0.6vh 1.5vw;
+}
+
+#loginBtn {
+  border: 1px solid rgb(209, 209, 209);
+}
+
+#registerBtn {
+  background-color: #408464;
+  border: 1px solid #1d6d48;
+}
+
+.active {
+  color: #1b9b5f;
+}
